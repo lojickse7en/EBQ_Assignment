@@ -1,0 +1,158 @@
+/******* LANDING PAGE STYLES *******/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Circular', sans-serif;
+}
+
+html {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.top-container {
+    background-color: #ebf4ff;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.header {
+    width: 100%;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* background-color: brown; */
+    width: 90px;
+    cursor: pointer;
+}
+
+
+.demo-btn {
+    background-color: #007bff;
+    padding: 0 30px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.b2bms {
+    /* background-color: blueviolet; */
+    width:55%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.b2b-items h1 {
+    /* background-color: burlywood; */
+    font-size: 50px;
+    font-weight: lighter;
+}
+.b2b-items h2 {
+    /* background-color: darkseagreen; */
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.b2b-items p {
+    /* background-color: cadetblue; */
+    padding-top: 30px;
+    font-size: 25px;
+    line-height: normal;
+}
+
+.middle-container-one {
+    /* background-color: deeppink; */
+    margin: 10px 150px;
+    height: 400px;
+    display: flex;
+    width: 70%;
+}
+
+
+.left-text {
+    /* background-color: greenyellow; */
+    padding: 80px 50px;
+}
+
+.ebq_img2 {
+    /* background-color: khaki; */
+    padding: 60px 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.middle-container-two {
+    /* background-color: lightpink; */
+    margin: 0 150px;
+    height: 400px;
+    display: flex;
+    width: 70%;
+}
+
+.middle-container-two img {
+    height: 300px;
+    width: 300px;
+    padding: 20px 50px;
+}
+
+.text-right {
+    padding: 50px 50px;
+    width: 50%;
+}
+
+.bottom-container {
+    background-color: rgb(30, 75, 173);
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-container-items {
+    /* background-color: yellowgreen; */
+    margin-top: 50px;
+    color: white;
+    font-size: large;
+    
+}
+
+.contact-btn {
+    background-color: rgb(30, 75, 173);
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 30px;
+    height: 40px;
+    width: 175px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 225px;
+}
+
+
+@media only screen and (min-device-width: 330px) and (max-device-width: 1020px) and (-webkit-min-device-pixel-ratio: 2){
+    .top-container {
+      min-height: 300px;
+    }
+    .middle-container-one {
+        /* background-color: thistle; */
+        margin-bottom: 90px;
+    }
+    .middle-container-two {
+        margin-bottom: 90px;
+    }
+    .bottom-container {
+        margin-top:20px;
+    }
+}
