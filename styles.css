@@ -25,9 +25,7 @@ html {
 }
 
 .logo {
-    /* background-color: brown; */
     width: 90px;
-    cursor: pointer;
 }
 
 
@@ -42,36 +40,32 @@ html {
     height: 40px;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .b2bms {
-    /* background-color: blueviolet; */
     width:55%;
     margin-left: 150px;
     margin-top: 20px;
 }
 
 .b2b-items h1 {
-    /* background-color: burlywood; */
     font-size: 50px;
     font-weight: lighter;
 }
 .b2b-items h2 {
-    /* background-color: darkseagreen; */
     font-size: 50px;
     font-weight: bold;
     margin-top: 0px;
 }
 
 .b2b-items p {
-    /* background-color: cadetblue; */
     padding-top: 30px;
     font-size: 25px;
     line-height: normal;
 }
 
 .middle-container-one {
-    /* background-color: deeppink; */
     margin: 10px 150px;
     height: 400px;
     display: flex;
@@ -80,19 +74,16 @@ html {
 
 
 .left-text {
-    /* background-color: greenyellow; */
     padding: 80px 50px;
 }
 
 .ebq_img2 {
-    /* background-color: khaki; */
     padding: 60px 50px;
     height: 300px;
     width: 300px;
 }
 
 .middle-container-two {
-    /* background-color: lightpink; */
     margin: 0 150px;
     height: 400px;
     display: flex;
@@ -120,7 +111,6 @@ html {
 
 
 .bottom-container-items {
-    /* background-color: yellowgreen; */
     margin-top: 50px;
     color: white;
     font-size: large;
@@ -146,7 +136,6 @@ html {
       min-height: 300px;
     }
     .middle-container-one {
-        /* background-color: thistle; */
         margin-bottom: 90px;
     }
     .middle-container-two {
